@@ -40,6 +40,7 @@ PtrToEmployee searchEmployeeByPhoneNumber(PtrToConstEmployee ptr, int tableSize,
     }
     return NULL;
 }
+
 PtrToEmployee searchEmployeeBySalary(PtrToConstEmployee ptr, int tableSize, double targetSalary)
 {
     const PtrToConstEmployee endPtr = ptr + tableSize;

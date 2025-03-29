@@ -29,7 +29,6 @@ static int compareEmployeeSalaray(const void *targetPtr, PtrToConstEmployee tabl
 {
     return *(double *)targetPtr, tableValuePtr->salary;
 }
-
 // wrappers that are used in main
 PtrToEmployee searchEmployeeByNumber(PtrToConstEmployee ptr, int size, long number)
 {
