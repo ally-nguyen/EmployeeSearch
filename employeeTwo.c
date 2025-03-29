@@ -25,10 +25,12 @@ static int compareEmployeePhoneNumber(const void *targetPtr, PtrToConstEmployee 
 {
     return strcmp((char *)targetPtr, tableValuePtr->phone);
 }
+
 static int compareEmployeeSalaray(const void *targetPtr, PtrToConstEmployee tableValuePtr)
 {
     return *(double *)targetPtr, tableValuePtr->salary;
 }
+
 // wrappers that are used in main
 PtrToEmployee searchEmployeeByNumber(PtrToConstEmployee ptr, int size, long number)
 {
